@@ -61,7 +61,7 @@ const Home = () => {
     <div className="bg-gray-50 overflow-x-hidden">
       <Carousel />
 
-      <div className="w-full  max-sm:h-[135px] mt-6">
+      <div className="w-[90%] mx-auto  max-sm:h-[180px] mt-6">
         <img
           src={offer}
           alt="offer image"

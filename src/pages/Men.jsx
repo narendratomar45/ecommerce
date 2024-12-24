@@ -42,13 +42,13 @@ const Men = () => {
       </h1>
       
 
-      <div className=" min-h-[500px] p-12 w-[86%] mx-auto flex justify-center items-center">
-        <div className="w-[100%] flex justify-center flex-wrap mx-auto gap-10">
+      {/* <div className=" min-h-[500px] p-12 w-[86%] mx-auto flex justify-center items-center"> */}
+        <div className="w-[90%] flex justify-center flex-wrap mx-auto gap-10">
           {filteredProduct.map((item, index) => (
             <ProductCard item={item} key={index} />
           ))}
         </div>
-      </div>
+      {/* </div> */}
       <div className="flex justify-center items-center my-5 gap-10 flex-wrap bg-white py-10 rounded-lg shadow-lg">
         <div className="w-80 h-auto flex flex-col items-center text-center">
           <RiExchangeLine className="text-6xl text-indigo-500 mb-4" />

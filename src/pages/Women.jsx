@@ -39,13 +39,13 @@ const Women = () => {
         A GIRL&apos;S GOT TO HAVE OPTIONS
       </h1>
 
-      <div className="w-[86%] mx-auto  min-h-[500px] flex justify-center items-center  p-12">
-        <div className="w-[100%] flex justify-center mx-auto flex-wrap gap-10 ">
+      {/* <div className="w-[86%] mx-auto  min-h-[500px] flex justify-center items-center  p-12"> */}
+        <div className="w-[90%] flex justify-center mx-auto flex-wrap gap-10 ">
           {filteredProduct.map((item, index) => (
             <ProductCard item={item} key={index} />
           ))}
         </div>
-      </div>
+      {/* </div> */}
       <div className="flex justify-center items-center my-5 gap-10 flex-wrap bg-white py-10 rounded-lg shadow-lg">
         <div className="w-80 h-auto flex flex-col items-center text-center">
           <RiExchangeLine className="text-6xl text-indigo-500 mb-4" />

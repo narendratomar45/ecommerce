@@ -54,10 +54,10 @@ const Carousel = () => {
     },
   ];
   return (
-    <div className=" w-full   mx-auto ">
+    <div className=" w-full  mx-auto">
       <Slider {...settings} className=" overflow-hidden ">
         {images.map((image, index) => (
-          <div className=" h-[500px]  max-sm:h-[200px] sm:w-full" key={index}>
+          <div className=" h-[500px]  max-sm:h-[180px] sm:w-full" key={index}>
             <img
               src={image.src}
               alt={image.alt}
